@@ -14,4 +14,3 @@ m, p, n = int(input()), int(input()), int(input())
 x = m * p/100
 for l in range(0, n) :
     print(l+1, m * (p / 100 + 1) ** l)
-#kjdnfkjkjdf
