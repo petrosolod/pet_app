@@ -8,9 +8,9 @@
 Программа должна вывести сумму данных чисел.
 '''
 
-counter = 0
-x = int(input())
-for l in range(x):
-    counter = counter + int(input())
-print(sum(counter)) 
-    
+counter = 0                         # here we will put all numbers
+x = int(input())                    # how many iteration do we will have
+for l in range(x):                  # l = variable for iteration (x = look above)
+    counter = counter + int(input())# 
+print(counter) 
+print(l)    
