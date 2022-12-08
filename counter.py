@@ -9,8 +9,8 @@
 '''
 
 counter = 0                         # here we will put all numbers
-x = int(input())                    # how many iteration do we will have
-for l in range(x):                  # l = variable for iteration (x = look above)
-    counter = counter + int(input())# add to the counter + number from terminal 
+x = int(input())                    # x is how many iteration do we will have
+for l in range(x):                  # l = variable for iteration(but we don't use it) (x = look above)
+    counter = counter + int(input())# add number from couter to the counter + numbers from terminal 
 print(counter) 
 print(l)    
