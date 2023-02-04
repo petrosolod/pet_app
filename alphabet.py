@@ -6,3 +6,4 @@ for i in range(len(alphabet)):
     #print(alphabet[i])
 del alpha_list[0]
 print(alpha_list)
+
